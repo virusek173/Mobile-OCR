@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0435B93124FA7528000BA26D /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 0435B93024FA7528000BA26D /* tessdata */; };
+		04A4253A24F80F2F00786678 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4253924F80F2F00786678 /* AppDelegate.swift */; };
+		04A4253C24F80F2F00786678 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4253B24F80F2F00786678 /* SceneDelegate.swift */; };
+		04A4253E24F80F2F00786678 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4253D24F80F2F00786678 /* ViewController.swift */; };
+		04A4254124F80F2F00786678 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A4253F24F80F2F00786678 /* Main.storyboard */; };
+		04A4254324F80F3200786678 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A4254224F80F3200786678 /* Assets.xcassets */; };
+		04A4254624F80F3200786678 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A4254424F80F3200786678 /* LaunchScreen.storyboard */; };
+		483702D1C5BBA818C67BEDC9 /* Pods_Master_OCR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC560AAB3BB2C213161BE6A2 /* Pods_Master_OCR.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0435B93024FA7528000BA26D /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		04A4253624F80F2F00786678 /* Master-OCR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Master-OCR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A4253924F80F2F00786678 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04A4253B24F80F2F00786678 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		04A4253D24F80F2F00786678 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04A4254024F80F2F00786678 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04A4254224F80F3200786678 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04A4254524F80F3200786678 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04A4254724F80F3200786678 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19DB986506D456D3419874E7 /* Pods-Master-OCR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Master-OCR.debug.xcconfig"; path = "Target Support Files/Pods-Master-OCR/Pods-Master-OCR.debug.xcconfig"; sourceTree = "<group>"; };
+		3F5C78DD4F6A2EEA6B2B3F48 /* Pods-Master-OCR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Master-OCR.release.xcconfig"; path = "Target Support Files/Pods-Master-OCR/Pods-Master-OCR.release.xcconfig"; sourceTree = "<group>"; };
+		EC560AAB3BB2C213161BE6A2 /* Pods_Master_OCR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Master_OCR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04A4253324F80F2F00786678 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				483702D1C5BBA818C67BEDC9 /* Pods_Master_OCR.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04A4252D24F80F2F00786678 = {
+			isa = PBXGroup;
+			children = (
+				04A4253824F80F2F00786678 /* Master-OCR */,
+				04A4253724F80F2F00786678 /* Products */,
+				D98E047FBA489A8402523DE2 /* Pods */,
+				208A94663EFF584FB6541FAB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04A4253724F80F2F00786678 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04A4253624F80F2F00786678 /* Master-OCR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04A4253824F80F2F00786678 /* Master-OCR */ = {
+			isa = PBXGroup;
+			children = (
+				0435B93024FA7528000BA26D /* tessdata */,
+				04A4253924F80F2F00786678 /* AppDelegate.swift */,
+				04A4253B24F80F2F00786678 /* SceneDelegate.swift */,
+				04A4253D24F80F2F00786678 /* ViewController.swift */,
+				04A4253F24F80F2F00786678 /* Main.storyboard */,
+				04A4254224F80F3200786678 /* Assets.xcassets */,
+				04A4254424F80F3200786678 /* LaunchScreen.storyboard */,
+				04A4254724F80F3200786678 /* Info.plist */,
+			);
+			path = "Master-OCR";
+			sourceTree = "<group>";
+		};
+		208A94663EFF584FB6541FAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC560AAB3BB2C213161BE6A2 /* Pods_Master_OCR.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D98E047FBA489A8402523DE2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19DB986506D456D3419874E7 /* Pods-Master-OCR.debug.xcconfig */,
+				3F5C78DD4F6A2EEA6B2B3F48 /* Pods-Master-OCR.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04A4253524F80F2F00786678 /* Master-OCR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A4254A24F80F3200786678 /* Build configuration list for PBXNativeTarget "Master-OCR" */;
+			buildPhases = (
+				2621A4B27A497819D96EDA1E /* [CP] Check Pods Manifest.lock */,
+				04A4253224F80F2F00786678 /* Sources */,
+				04A4253324F80F2F00786678 /* Frameworks */,
+				04A4253424F80F2F00786678 /* Resources */,
+				BD214EBACC5F0246685F955A /* [CP] Embed Pods Frameworks */,
+				6B054F8E15D7388E22BC5C48 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Master-OCR";
+			productName = "Master-OCR";
+			productReference = 04A4253624F80F2F00786678 /* Master-OCR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04A4252E24F80F2F00786678 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Jacek Graczyk";
+				TargetAttributes = {
+					04A4253524F80F2F00786678 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 04A4253124F80F2F00786678 /* Build configuration list for PBXProject "Master-OCR" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04A4252D24F80F2F00786678;
+			productRefGroup = 04A4253724F80F2F00786678 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04A4253524F80F2F00786678 /* Master-OCR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04A4253424F80F2F00786678 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A4254624F80F3200786678 /* LaunchScreen.storyboard in Resources */,
+				0435B93124FA7528000BA26D /* tessdata in Resources */,
+				04A4254324F80F3200786678 /* Assets.xcassets in Resources */,
+				04A4254124F80F2F00786678 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2621A4B27A497819D96EDA1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Master-OCR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B054F8E15D7388E22BC5C48 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Master-OCR/Pods-Master-OCR-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Master-OCR/Pods-Master-OCR-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Master-OCR/Pods-Master-OCR-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD214EBACC5F0246685F955A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Master-OCR/Pods-Master-OCR-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Master-OCR/Pods-Master-OCR-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Master-OCR/Pods-Master-OCR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04A4253224F80F2F00786678 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A4253E24F80F2F00786678 /* ViewController.swift in Sources */,
+				04A4253A24F80F2F00786678 /* AppDelegate.swift in Sources */,
+				04A4253C24F80F2F00786678 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04A4253F24F80F2F00786678 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04A4254024F80F2F00786678 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04A4254424F80F3200786678 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04A4254524F80F3200786678 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04A4254824F80F3200786678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04A4254924F80F3200786678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04A4254B24F80F3200786678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19DB986506D456D3419874E7 /* Pods-Master-OCR.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24TRATM3J6;
+				INFOPLIST_FILE = "Master-OCR/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jack.Master-OCR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04A4254C24F80F3200786678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F5C78DD4F6A2EEA6B2B3F48 /* Pods-Master-OCR.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24TRATM3J6;
+				INFOPLIST_FILE = "Master-OCR/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jack.Master-OCR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04A4253124F80F2F00786678 /* Build configuration list for PBXProject "Master-OCR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A4254824F80F3200786678 /* Debug */,
+				04A4254924F80F3200786678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A4254A24F80F3200786678 /* Build configuration list for PBXNativeTarget "Master-OCR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A4254B24F80F3200786678 /* Debug */,
+				04A4254C24F80F3200786678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04A4252E24F80F2F00786678 /* Project object */;
+}
